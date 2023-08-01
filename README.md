@@ -1,2 +1,2 @@
 # project-management-web-app
- Project Management Application with Spring MVC
+ Project Management Application with Spring MVC and PostgreSQL
