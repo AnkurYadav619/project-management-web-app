@@ -1,0 +1,47 @@
+= 23-22-25  INFO 3132 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Starting ProjectManagementApplication using Java 17.0.6 with PID 3132 (C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app\target\classes started by yadav in C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app)
+= 23-22-25 DEBUG 3132 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Running with Spring Boot v3.1.1, Spring v6.0.10
+= 23-22-25  INFO 3132 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : The following 1 profile is active: "dev"
+= 23-22-25  WARN 3132 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+= 23-22-25  INFO 3132 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Started ProjectManagementApplication in 3.552 seconds (process running for 4.31)
+= 23-58-25  WARN 3132 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m22s583ms930µs500ns).
+= 23-00-25  INFO 11756 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Starting ProjectManagementApplication using Java 17.0.6 with PID 11756 (C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app\target\classes started by yadav in C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app)
+= 23-00-25 DEBUG 11756 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Running with Spring Boot v3.1.1, Spring v6.0.10
+= 23-00-25  INFO 11756 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : The following 1 profile is active: "dev"
+= 23-01-25  WARN 11756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+= 23-01-25  WARN 11756 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b9967499-70d6-48c4-b996-672cf2320e3b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+= 23-01-25  INFO 11756 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Started ProjectManagementApplication in 3.977 seconds (process running for 4.763)
+= 23-02-25 DEBUG 11756 --- [http-nio-8080-exec-2] c.wa.pma.logger.ApplicationLoggerAspect  : 
+ 
+ 
+
+= 23-02-25 DEBUG 11756 --- [http-nio-8080-exec-2] c.wa.pma.logger.ApplicationLoggerAspect  : **********Before Method Execution******************** com.wa.pma.controllers.HomeController.displayHome () with arguements[s] = [{}]
+= 23-02-25 DEBUG 11756 --- [http-nio-8080-exec-2] c.wa.pma.logger.ApplicationLoggerAspect  : **********After Method Execution******************** com.wa.pma.controllers.HomeController.displayHome () with arguements[s] = [{versionNumber=3.0.0, projectsList=[com.wa.pma.entities.Project@53fcf29e, com.wa.pma.entities.Project@d3051c8, com.wa.pma.entities.Project@74e019ea, com.wa.pma.entities.Project@6ae13c93, com.wa.pma.entities.Project@4a88a508, com.wa.pma.entities.Project@4820a8f9], projectStatusCnt=[{"label":"INPROGRESS","count":3},{"label":"COMPLETED","count":1},{"label":"NOTSTARTED","count":2}], employeeProjectCntList=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7d262a22, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4effe24f, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@147db0cb, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@41cfa1aa, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@d74f48b, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3c2882f0, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@45aa8656, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@79d4adb8, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@53aedea5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2b69f922]}]
+= 23-02-25  WARN 11756 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][main/home] Deprecated unwrapped fragment expression "layouts :: header" found in template main/home, line 5, col 7. Please use the complete syntax of fragment expressions instead ("~{layouts :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+= 23-02-25  WARN 11756 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][main/home] Deprecated unwrapped fragment expression "layouts :: navbar" found in template main/home, line 9, col 7. Please use the complete syntax of fragment expressions instead ("~{layouts :: navbar}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+= 23-30-25  INFO 17556 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Starting ProjectManagementApplication using Java 17.0.6 with PID 17556 (C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app\target\classes started by yadav in C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app)
+= 23-30-25 DEBUG 17556 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Running with Spring Boot v3.1.1, Spring v6.0.10
+= 23-30-25  INFO 17556 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : The following 1 profile is active: "dev"
+= 23-30-25  WARN 17556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+= 23-30-25  WARN 17556 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 46810525-8ddf-4f4d-95bb-3405d99ffe41
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+= 23-30-25  INFO 17556 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Started ProjectManagementApplication in 4.007 seconds (process running for 4.816)
+= 23-35-25  INFO 10844 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Starting ProjectManagementApplication using Java 17.0.6 with PID 10844 (C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app\target\classes started by yadav in C:\Users\yadav\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\project-management-web-app)
+= 23-35-25 DEBUG 10844 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Running with Spring Boot v3.1.1, Spring v6.0.10
+= 23-35-25  INFO 10844 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : The following 1 profile is active: "dev"
+= 23-35-25  WARN 10844 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+= 23-35-25  WARN 10844 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b0dc4141-54be-414c-bbce-a348cd578091
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+= 23-35-25  INFO 10844 --- [restartedMain] c.wa.pma.ProjectManagementApplication    : Started ProjectManagementApplication in 3.827 seconds (process running for 4.599)
